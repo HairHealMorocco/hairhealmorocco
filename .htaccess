@@ -1,4 +1,5 @@
 #Rewrite everything to https
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteEngine On 
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC] 
+RewriteRule ^ https://hairhealmorocco.com%{REQUEST_URI} [R=301,L,NE]
