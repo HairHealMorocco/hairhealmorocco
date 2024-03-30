@@ -19,6 +19,7 @@ body {
 #header {
   height: max-content;
   font-family: "Montserrat", sans-serif;
+  width: 100%;
   background-color: white;
   padding: 1rem 0;
   position: sticky;
