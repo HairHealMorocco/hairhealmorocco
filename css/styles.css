@@ -13,6 +13,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #ffe4e1;
 }
 
 #header {
@@ -48,7 +49,7 @@ body {
 }
 
 #header-img {
-  height: 5rem;
+  height: 8rem;
   width: auto;
 }
 
@@ -111,7 +112,7 @@ nav {
 
 .home-sec {
   font-family: "Montserrat", sans-serif;
-  background-color: #ffffff;
+  background-color: #ffe4e1;
   text-align: start;
   min-height: 60rem;
   height: auto;
@@ -144,6 +145,7 @@ nav {
   font-size: 5rem;
   line-height: 1.5;
   font-weight: 600;
+  color: #deb887;
 }
 
 .eye-grabber h2 {
@@ -188,7 +190,7 @@ nav {
 }
 
 .section-heading {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   line-height: 1.2;
@@ -199,8 +201,8 @@ nav {
 
 .sec-content-div {
   font-size: 2rem;
-  text-align: start;
-  padding: 0 2rem 5rem 2rem;
+  text-align: justify;
+  /*padding: 0 2rem 5rem 2rem;*/
   width: auto;
   justify-content: space-around;
   max-width: 95rem;
@@ -215,7 +217,11 @@ nav {
   background-color: #fafafa;
 }
 
-#about img {
+#QA {
+  background-color: white;
+}
+
+#QA img {
   max-width: 100%;
   height: auto;
   background-color: white;
@@ -223,8 +229,8 @@ nav {
   box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
 }
 
-#varieties {
-  background-color: #e3e3e3;
+#ingredients {
+  background-color: #ffe4e1;
 }
 
 .tile {
@@ -275,7 +281,7 @@ nav {
 }
 
 #our-service {
-  background-color: #ee6f57;
+  background-color: #ffe4e1;
 }
 
 .bars {
@@ -284,7 +290,7 @@ nav {
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: flex-start;
-  margin: 2rem;
+  margin: 1rem;
   width: 100%;
 }
 
@@ -293,12 +299,12 @@ nav {
     flex-flow: column wrap;
   }
   .icon-container {
-    margin: 0 2.5rem;
+    margin: 0 1rem;
   }
 }
 
 .bars .icon-container {
-  max-width: 10rem;
+  max-width: 8rem;
   flex: 1;
 }
 
@@ -313,7 +319,7 @@ nav {
 }
 
 .txt-container h5 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 500;
   padding: 0;
   margin: 0;
@@ -324,11 +330,11 @@ nav {
   font-size: 2.3rem;
 }
 
-#benefits {
-  background-color: #f84848;
+#HowToUse {
+  background-color: #fafafa;
 }
 
-#benefits iframe {
+#HowToUse iframe {
   outline: 0;
   border: none;
   width: 100%;
@@ -367,7 +373,7 @@ input[type="email"] {
 
 footer {
   font-size: 1.4rem;
-  background-color: #ce2f2f;
+  background-color: #deb887;
   text-align: center;
   padding: 2rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -425,7 +431,7 @@ body {
   .tile p,
   .txt-container h5,
   .txt-container p{
-    text-align: right;*/
+    text-align: justify;*/
   }
   
   /* Revert text alignment for special cases */
